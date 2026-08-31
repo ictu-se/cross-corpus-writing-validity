@@ -4,6 +4,8 @@ This project evaluates whether a proficiency signal learned from CEFR-labelled
 Write & Improve essays transfers to scores in the public FCE corpus, and whether
 out-of-sample scoring error varies across first-language groups.
 
+Archived release: https://doi.org/10.5281/zenodo.22209987
+
 The package reproduces the aggregate tables and figures reported in the study.
 It intentionally excludes manuscript files, licensed learner text, and
 candidate-level prediction exports.

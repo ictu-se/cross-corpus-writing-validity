@@ -4,6 +4,7 @@ title: "Cross-corpus validity and L1-conditional error in automated English writ
 type: software
 version: 1.0.0
 date-released: 2026-08-31
+doi: 10.5281/zenodo.22209987
 authors:
   - family-names: Nguyen
     given-names: Thi Bich Diep
@@ -11,4 +12,5 @@ authors:
     given-names: The Vinh
     orcid: "https://orcid.org/0000-0002-1300-3943"
 repository-code: "https://github.com/ictu-se/cross-corpus-writing-validity"
+url: "https://doi.org/10.5281/zenodo.22209987"
 license: MIT
