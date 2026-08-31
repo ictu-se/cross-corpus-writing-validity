@@ -1,0 +1,128 @@
+{
+  "seed": 20260831,
+  "wi_records": 3300,
+  "fce_scripts": 1238,
+  "wi_metrics": [
+    {
+      "model": "Surface",
+      "QWK": 0.5481662103432148,
+      "Macro_F1": 0.5796824402361976,
+      "MAE_levels": 0.4782245807159209,
+      "Spearman": 0.6241644862239261,
+      "ECE": 0.05169691298164443
+    },
+    {
+      "model": "TF-IDF",
+      "QWK": 0.6091345041807741,
+      "Macro_F1": 0.5981421329410326,
+      "MAE_levels": 0.4837116548023919,
+      "Spearman": 0.6986290785147065,
+      "ECE": 0.051670882032627756
+    },
+    {
+      "model": "Hybrid",
+      "QWK": 0.5908819502445202,
+      "Macro_F1": 0.5949272589465725,
+      "MAE_levels": 0.4341545002374454,
+      "Spearman": 0.6883461892724935,
+      "ECE": 0.032062344506039266
+    }
+  ],
+  "fce_metrics": [
+    {
+      "model": "Transferred CEFR score",
+      "alpha": null,
+      "MAE": 4.2798399255128405,
+      "RMSE": 5.300817879240256,
+      "Pearson": 0.4754699187097479,
+      "Spearman": 0.5306028189735948,
+      "QWK": 0.2950643980950086,
+      "MAE_CI_low": 3.6665066260160346,
+      "MAE_CI_high": 4.932314904654909,
+      "Spearman_CI_low": 0.37505677077127153,
+      "Spearman_CI_high": 0.6570689176807061
+    },
+    {
+      "model": "Surface",
+      "alpha": 100.0,
+      "MAE": 4.453304573103028,
+      "RMSE": 5.5872541516821865,
+      "Pearson": 0.3343682373691629,
+      "Spearman": 0.3811616362089963,
+      "QWK": 0.24400820392616462,
+      "MAE_CI_low": 3.79388702950371,
+      "MAE_CI_high": 5.1430955253396125,
+      "Spearman_CI_low": 0.2013279773145536,
+      "Spearman_CI_high": 0.5424507898968737
+    },
+    {
+      "model": "TF-IDF",
+      "alpha": 1.0,
+      "MAE": 3.8354172994533267,
+      "RMSE": 4.800659341585859,
+      "Pearson": 0.695823043308983,
+      "Spearman": 0.6954248437073978,
+      "QWK": 0.4364313776121881,
+      "MAE_CI_low": 3.260102230998362,
+      "MAE_CI_high": 4.4450414737499155,
+      "Spearman_CI_low": 0.5660046734425924,
+      "Spearman_CI_high": 0.7881779758515118
+    },
+    {
+      "model": "Hybrid",
+      "alpha": 1.0,
+      "MAE": 4.228101001313438,
+      "RMSE": 5.220853539651613,
+      "Pearson": 0.5705315100040232,
+      "Spearman": 0.5825815016198439,
+      "QWK": 0.4634055751922883,
+      "MAE_CI_low": 3.6320105481556135,
+      "MAE_CI_high": 4.8413880412633015,
+      "Spearman_CI_low": 0.42631764431589175,
+      "Spearman_CI_high": 0.7042812426258047
+    },
+    {
+      "model": "Hybrid + transferred score",
+      "alpha": 1.0,
+      "MAE": 4.114569777449303,
+      "RMSE": 5.1197433370848024,
+      "Pearson": 0.5990318201023555,
+      "Spearman": 0.6145683832483047,
+      "QWK": 0.4795909062904319,
+      "MAE_CI_low": 3.521332375535019,
+      "MAE_CI_high": 4.736313208419337,
+      "Spearman_CI_low": 0.4658268281205418,
+      "Spearman_CI_high": 0.7298713047034088
+    }
+  ],
+  "audit": [
+    {
+      "quantity": "Overall OOF MAE",
+      "value": 3.6775478643705997
+    },
+    {
+      "quantity": "Worst-best L1 MAE gap",
+      "value": 1.2997262264104994
+    },
+    {
+      "quantity": "Signed-error adjusted R-squared",
+      "value": 0.846672034665771
+    },
+    {
+      "quantity": "Absolute-error adjusted R-squared",
+      "value": 0.02254190130974354
+    },
+    {
+      "quantity": "Joint L1 p for signed error",
+      "value": 0.7083027016087586
+    },
+    {
+      "quantity": "Joint L1 p for absolute error",
+      "value": 0.022407889618235432
+    },
+    {
+      "quantity": "Number of L1 groups (n>=20)",
+      "value": 14.0
+    }
+  ]
+}

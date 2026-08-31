@@ -1,0 +1,8 @@
+quantity,value
+Overall OOF MAE,3.6775478643705997
+Worst-best L1 MAE gap,1.2997262264104994
+Signed-error adjusted R-squared,0.846672034665771
+Absolute-error adjusted R-squared,0.02254190130974354
+Joint L1 p for signed error,0.7083027016087586
+Joint L1 p for absolute error,0.022407889618235432
+Number of L1 groups (n>=20),14.0

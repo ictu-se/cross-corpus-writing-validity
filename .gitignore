@@ -1,0 +1,16 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Licensed corpora must be obtained from their official release.
+dataset_raw/
+
+# Manuscripts are submitted separately and are not part of the replication archive.
+manuscript_learn/
+NOTE.md
+
+# Candidate-level predictions are excluded to minimize redistribution of derived records.
+results/fce_oof_predictions.csv
+results/fce_test_predictions.csv

@@ -1,0 +1,6 @@
+corpus,split,texts_or_scripts,writers
+W&I,train,2623,2081
+W&I,dev,677,540
+FCE,train,1061,1061
+FCE,dev,80,80
+FCE,test,97,97
